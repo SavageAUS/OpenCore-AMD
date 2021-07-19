@@ -1,0 +1,157 @@
+15:947  5:158  Found BIOS RSDP at f0010
+15:947  0:000  Printing ACPI tables from RSDP f0010 ...
+15:947  0:000   f0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:947  0:000    (Xsdt: bbce6728, Rsdt: bbce6394)
+15:947  0:000    bbce6728: 'XSDT', 'A M I', Rev: 1, Len: 228
+15:947  0:000    bbce6394: 'RSDT', 'A M I', Rev: 1, Len: 132
+15:947  0:000    Tables in Xsdt: 24
+15:947  0:000    0. bb665000: 'FACP', 'A M I', Rev: 6, Len: 276
+15:947  0:000        (Dsdt: BB65E000, Facs: BBCE1000, XDsdt: bb65e000, XFacs: 0)
+15:947  0:000        bb65e000: 'DSDT', 'A M I', Rev: 2, Len: 25349
+15:947  0:000        bbce1000: 'FACS', Ver: 2, Len: 64
+15:947  0:000    1. bb674000: 'SSDT', 'GSWApp', Rev: 1, Len: 42605
+15:947  0:000    2. bb66b000: 'SSDT', 'AmdTable', Rev: 2, Len: 35992
+15:947  0:000    3. bb667000: 'SSDT', 'AMD AOD', Rev: 1, Len: 15461
+15:947  0:000    4. bb666000: 'SSDT', 'CPUSSDT', Rev: 2, Len: 200
+15:947  0:000    5. bb65d000: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:947  0:000    6. bb65c000: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:947  0:000    7. bb65b000: 'HPET', 'A M I', Rev: 1, Len: 56
+15:947  0:000    8. bb65a000: 'SSDT', 'BIXBY', Rev: 1, Len: 36
+15:947  0:000    9. bb64b000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+15:947  0:000    10. bb64a000: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:947  0:000    11. bb649000: 'IVRS', 'AmdTable', Rev: 2, Len: 208
+15:947  0:000    12. bb648000: 'PCCT', 'AmdTable', Rev: 2, Len: 110
+15:947  0:000    13. bb645000: 'SSDT', 'AmdTable', Rev: 2, Len: 12073
+15:947  0:000    14. bb644000: 'CRAT', 'AmdTable', Rev: 1, Len: 2904
+15:947  0:000    15. bb643000: 'CDIT', 'AmdTable', Rev: 1, Len: 41
+15:947  0:000    16. bb642000: 'SSDT', 'QOGIRDGP', Rev: 1, Len: 1526
+15:947  0:000    17. bb640000: 'SSDT', 'QOGIRTPX', Rev: 1, Len: 5366
+15:947  0:000    18. bb63f000: 'SSDT', 'QOGIRNOI', Rev: 1, Len: 1928
+15:947  0:000    19. bb63b000: 'SSDT', 'QOGIRN', Rev: 1, Len: 14051
+15:947  0:000    20. bb63a000: 'WSMT', 'A M I', Rev: 1, Len: 40
+15:947  0:000    21. bb639000: 'APIC', 'A M I', Rev: 3, Len: 350
+15:947  0:000    22. bb637000: 'SSDT', 'QOGIRC', Rev: 1, Len: 5247
+15:947  0:000    23. bb636000: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:947  0:000    Tables in Rsdt: 24
+15:947  0:000    0. bb665000: 'FACP', 'A M I', Rev: 6, Len: 276
+15:947  0:000        (Dsdt: BB65E000, Facs: BBCE1000, XDsdt: bb65e000, XFacs: 0)
+15:947  0:000        bb65e000: 'DSDT', 'A M I', Rev: 2, Len: 25349
+15:948  0:000        bbce1000: 'FACS', Ver: 2, Len: 64
+15:948  0:000    1. bb674000: 'SSDT', 'GSWApp', Rev: 1, Len: 42605
+15:948  0:000    2. bb66b000: 'SSDT', 'AmdTable', Rev: 2, Len: 35992
+15:948  0:000    3. bb667000: 'SSDT', 'AMD AOD', Rev: 1, Len: 15461
+15:948  0:000    4. bb666000: 'SSDT', 'CPUSSDT', Rev: 2, Len: 200
+15:948  0:000    5. bb65d000: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:948  0:000    6. bb65c000: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:948  0:000    7. bb65b000: 'HPET', 'A M I', Rev: 1, Len: 56
+15:948  0:000    8. bb65a000: 'SSDT', 'BIXBY', Rev: 1, Len: 36
+15:948  0:000    9. bb64b000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+15:948  0:000    10. bb64a000: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:948  0:000    11. bb649000: 'IVRS', 'AmdTable', Rev: 2, Len: 208
+15:948  0:000    12. bb648000: 'PCCT', 'AmdTable', Rev: 2, Len: 110
+15:948  0:000    13. bb645000: 'SSDT', 'AmdTable', Rev: 2, Len: 12073
+15:948  0:000    14. bb644000: 'CRAT', 'AmdTable', Rev: 1, Len: 2904
+15:948  0:000    15. bb643000: 'CDIT', 'AmdTable', Rev: 1, Len: 41
+15:948  0:000    16. bb642000: 'SSDT', 'QOGIRDGP', Rev: 1, Len: 1526
+15:948  0:000    17. bb640000: 'SSDT', 'QOGIRTPX', Rev: 1, Len: 5366
+15:948  0:000    18. bb63f000: 'SSDT', 'QOGIRNOI', Rev: 1, Len: 1928
+15:948  0:000    19. bb63b000: 'SSDT', 'QOGIRN', Rev: 1, Len: 14051
+15:948  0:000    20. bb63a000: 'WSMT', 'A M I', Rev: 1, Len: 40
+15:948  0:000    21. bb639000: 'APIC', 'A M I', Rev: 3, Len: 350
+15:948  0:000    22. bb637000: 'SSDT', 'QOGIRC', Rev: 1, Len: 5247
+15:948  0:000    23. bb636000: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:948  0:000  Found UEFI Acpi 2.0 RSDP at bbce7014
+15:948  0:000  Saving ACPI tables from RSDP bbce7014 to ACPI\origin ...
+15:948  0:000   bbce7014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+15:952  0:004    (Xsdt: bbce6728, Rsdt: bbce6394)
+15:952  0:000    bbce6728: 'XSDT', 'A M I', Rev: 1, Len: 228 -> XSDT.aml
+15:956  0:004    bbce6394: 'RSDT', 'A M I', Rev: 1, Len: 132 -> RSDT.aml
+15:960  0:003    Tables in Xsdt: 24
+15:960  0:000    0. bb665000: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+15:964  0:003        (Dsdt: BB65E000, Facs: BBCE1000, XDsdt: bb65e000, XFacs: 0)
+15:964  0:000        bb65e000: 'DSDT', 'A M I', Rev: 2, Len: 25349 -> DSDT.aml
+15:968  0:004        bbce1000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+15:972  0:004    1. bb674000: 'SSDT', 'GSWApp', Rev: 1, Len: 42605 -> SSDT-0-GSWApp.aml
+15:978  0:005    2. bb66b000: 'SSDT', 'AmdTable', Rev: 2, Len: 35992 -> SSDT-1-AmdTable.aml
+15:982  0:004    3. bb667000: 'SSDT', 'AMD AOD', Rev: 1, Len: 15461 -> SSDT-2-AMD AOD.aml
+15:986  0:004    4. bb666000: 'SSDT', 'CPUSSDT', Rev: 2, Len: 200 -> SSDT-3-CPUSSDT.aml
+15:991  0:004    5. bb65d000: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+15:995  0:003    6. bb65c000: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+15:999  0:004    7. bb65b000: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+16:002  0:003    8. bb65a000: 'SSDT', 'BIXBY', Rev: 1, Len: 36 -> SSDT-4-BIXBY.aml
+16:007  0:004    9. bb64b000: 'VFCT', 'A M I', Rev: 1, Len: 59524 -> VFCT.aml
+16:011  0:004    10. bb64a000: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+16:015  0:003    11. bb649000: 'IVRS', 'AmdTable', Rev: 2, Len: 208 -> IVRS.aml
+16:019  0:003    12. bb648000: 'PCCT', 'AmdTable', Rev: 2, Len: 110 -> PCCT.aml
+16:023  0:003    13. bb645000: 'SSDT', 'AmdTable', Rev: 2, Len: 12073 -> SSDT-5-AmdTable.aml
+16:027  0:004    14. bb644000: 'CRAT', 'AmdTable', Rev: 1, Len: 2904 -> CRAT.aml
+16:031  0:003    15. bb643000: 'CDIT', 'AmdTable', Rev: 1, Len: 41 -> CDIT.aml
+16:035  0:003    16. bb642000: 'SSDT', 'QOGIRDGP', Rev: 1, Len: 1526 -> SSDT-6-QOGIRDGP.aml
+16:039  0:004    17. bb640000: 'SSDT', 'QOGIRTPX', Rev: 1, Len: 5366 -> SSDT-7-QOGIRTPX.aml
+16:043  0:004    18. bb63f000: 'SSDT', 'QOGIRNOI', Rev: 1, Len: 1928 -> SSDT-8-QOGIRNOI.aml
+16:047  0:003    19. bb63b000: 'SSDT', 'QOGIRN', Rev: 1, Len: 14051 -> SSDT-9-QOGIRN.aml
+16:051  0:004    20. bb63a000: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
+16:056  0:004    21. bb639000: 'APIC', 'A M I', Rev: 3, Len: 350 -> APIC.aml
+16:060  0:003    22. bb637000: 'SSDT', 'QOGIRC', Rev: 1, Len: 5247 -> SSDT-10-QOGIRC.aml
+16:064  0:004    23. bb636000: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+16:068  0:003    Tables in Rsdt: 24
+16:068  0:000    0. bb665000: 'FACP', 'A M I', Rev: 6, Len: 276
+16:068  0:000        (Dsdt: BB65E000, Facs: BBCE1000, XDsdt: bb65e000, XFacs: 0)
+16:068  0:000        bb65e000: 'DSDT', 'A M I', Rev: 2, Len: 25349
+16:068  0:000        bbce1000: 'FACS', Ver: 2, Len: 64
+16:068  0:000    1. bb674000: 'SSDT', 'GSWApp', Rev: 1, Len: 42605
+16:068  0:000    2. bb66b000: 'SSDT', 'AmdTable', Rev: 2, Len: 35992
+16:068  0:000    3. bb667000: 'SSDT', 'AMD AOD', Rev: 1, Len: 15461
+16:068  0:000    4. bb666000: 'SSDT', 'CPUSSDT', Rev: 2, Len: 200
+16:068  0:000    5. bb65d000: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:068  0:000    6. bb65c000: 'MCFG', 'A M I', Rev: 1, Len: 60
+16:068  0:000    7. bb65b000: 'HPET', 'A M I', Rev: 1, Len: 56
+16:068  0:000    8. bb65a000: 'SSDT', 'BIXBY', Rev: 1, Len: 36
+16:068  0:000    9. bb64b000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+16:068  0:000    10. bb64a000: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:068  0:000    11. bb649000: 'IVRS', 'AmdTable', Rev: 2, Len: 208
+16:068  0:000    12. bb648000: 'PCCT', 'AmdTable', Rev: 2, Len: 110
+16:068  0:000    13. bb645000: 'SSDT', 'AmdTable', Rev: 2, Len: 12073
+16:068  0:000    14. bb644000: 'CRAT', 'AmdTable', Rev: 1, Len: 2904
+16:068  0:000    15. bb643000: 'CDIT', 'AmdTable', Rev: 1, Len: 41
+16:068  0:000    16. bb642000: 'SSDT', 'QOGIRDGP', Rev: 1, Len: 1526
+16:068  0:000    17. bb640000: 'SSDT', 'QOGIRTPX', Rev: 1, Len: 5366
+16:068  0:000    18. bb63f000: 'SSDT', 'QOGIRNOI', Rev: 1, Len: 1928
+16:068  0:000    19. bb63b000: 'SSDT', 'QOGIRN', Rev: 1, Len: 14051
+16:068  0:000    20. bb63a000: 'WSMT', 'A M I', Rev: 1, Len: 40
+16:068  0:000    21. bb639000: 'APIC', 'A M I', Rev: 3, Len: 350
+16:068  0:000    22. bb637000: 'SSDT', 'QOGIRC', Rev: 1, Len: 5247
+16:068  0:000    23. bb636000: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:068  0:000  Found UEFI Acpi 1.0 RSDP at bbce7000
+16:068  0:000  Printing ACPI tables from RSDP bbce7000 ...
+16:068  0:000   bbce7000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+16:068  0:000    (Rsdt: bbce6000)
+16:068  0:000    bbce6000: 'RSDT', 'A M I', Rev: 1, Len: 132
+16:068  0:000    Tables in Rsdt: 24
+16:068  0:000    0. bb665000: 'FACP', 'A M I', Rev: 6, Len: 276
+16:068  0:000        (Dsdt: BB65E000, Facs: BBCE1000, XDsdt: bb65e000, XFacs: 0)
+16:068  0:000        bb65e000: 'DSDT', 'A M I', Rev: 2, Len: 25349
+16:068  0:000        bbce1000: 'FACS', Ver: 2, Len: 64
+16:068  0:000    1. bb674000: 'SSDT', 'GSWApp', Rev: 1, Len: 42605
+16:068  0:000    2. bb66b000: 'SSDT', 'AmdTable', Rev: 2, Len: 35992
+16:068  0:000    3. bb667000: 'SSDT', 'AMD AOD', Rev: 1, Len: 15461
+16:068  0:000    4. bb666000: 'SSDT', 'CPUSSDT', Rev: 2, Len: 200
+16:068  0:000    5. bb65d000: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:068  0:000    6. bb65c000: 'MCFG', 'A M I', Rev: 1, Len: 60
+16:068  0:000    7. bb65b000: 'HPET', 'A M I', Rev: 1, Len: 56
+16:068  0:000    8. bb65a000: 'SSDT', 'BIXBY', Rev: 1, Len: 36
+16:068  0:000    9. bb64b000: 'VFCT', 'A M I', Rev: 1, Len: 59524
+16:068  0:000    10. bb64a000: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:068  0:000    11. bb649000: 'IVRS', 'AmdTable', Rev: 2, Len: 208
+16:068  0:000    12. bb648000: 'PCCT', 'AmdTable', Rev: 2, Len: 110
+16:068  0:000    13. bb645000: 'SSDT', 'AmdTable', Rev: 2, Len: 12073
+16:068  0:000    14. bb644000: 'CRAT', 'AmdTable', Rev: 1, Len: 2904
+16:068  0:000    15. bb643000: 'CDIT', 'AmdTable', Rev: 1, Len: 41
+16:068  0:000    16. bb642000: 'SSDT', 'QOGIRDGP', Rev: 1, Len: 1526
+16:068  0:000    17. bb640000: 'SSDT', 'QOGIRTPX', Rev: 1, Len: 5366
+16:068  0:000    18. bb63f000: 'SSDT', 'QOGIRNOI', Rev: 1, Len: 1928
+16:068  0:000    19. bb63b000: 'SSDT', 'QOGIRN', Rev: 1, Len: 14051
+16:068  0:000    20. bb63a000: 'WSMT', 'A M I', Rev: 1, Len: 40
+16:068  0:000    21. bb639000: 'APIC', 'A M I', Rev: 3, Len: 350
+16:068  0:000    22. bb637000: 'SSDT', 'QOGIRC', Rev: 1, Len: 5247
+16:068  0:000    23. bb636000: 'FPDT', 'A M I', Rev: 1, Len: 68
