@@ -234,7 +234,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3 | Lilu.kext</string>
+                    <string>V1.6.5 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -252,7 +252,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -306,7 +306,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.1 | SMCSuperIO.kext</string>
+                    <string>V1.3.2 | SMCSuperIO.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -344,7 +344,7 @@
                     <key>Comment</key>
                     <string>V2.6.5 | BrcmFirmwareData.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
@@ -362,7 +362,7 @@
                     <key>Comment</key>
                     <string>V2.6.5 | BrcmPatchRAM3.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
@@ -432,7 +432,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.8 | AppleALC.kext</string>
+                    <string>V1.8.1 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -452,7 +452,7 @@
                     <key>Comment</key>
                     <string>V2.6.5 | BlueToolFixup.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
@@ -470,7 +470,7 @@
                     <key>Comment</key>
                     <string>V2.1.7 | AirportBrcmFixup.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportBrcmFixup</string>
                     <key>MaxKernel</key>
@@ -654,13 +654,43 @@
                     <key>Mask</key>
                     <data>//3/AAAA</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>22.3.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
                     <data>ugwAAACQ</data>
                     <key>ReplaceMask</key>
                     <data>////////</data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>_cpuid_set_info</string>
+                    <key>Comment</key>
+                    <string>algrey - Force cpuid_cores_per_package 13.3+</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>wegaAAA=</data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data>//3/AAA=</data>
+                    <key>MaxKernel</key>
+                    <string>22.99.99</string>
+                    <key>MinKernel</key>
+                    <string>22.4.0</string>
+                    <key>Replace</key>
+                    <data>ugwAAAA=</data>
+                    <key>ReplaceMask</key>
+                    <data>//////8=</data>
                     <key>Skip</key>
                     <integer>0</integer>
                 </dict>
@@ -878,27 +908,27 @@
                     <key>Arch</key>
                     <string>x86_64</string>
                     <key>Base</key>
-                    <string></string>
+                    <string>_cpuid_set_info</string>
                     <key>Comment</key>
-                    <string>Goldfish64 - Bypass GenuineIntel check panic - 12.0/13.0</string>
+                    <string>Goldfish64 / algrey - Bypass GenuineIntel check panic - 12.0/13.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
                     <true/>
                     <key>Find</key>
-                    <data>uW4AAAAPvsA5wQAAAAAAAA==</data>
+                    <data>AAAAAAAAMdKzAQ==</data>
                     <key>Identifier</key>
                     <string>kernel</string>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
-                    <data>/////////////wAAAAAAAA==</data>
+                    <data>AAAAAAAA/////w==</data>
                     <key>MaxKernel</key>
                     <string>22.99.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
-                    <data>uW4AAAAPvsA5wZCQkJCQkA==</data>
+                    <data>kJCQkJCQMdKzAQ==</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -1371,7 +1401,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string></string>
+                    <string>-v</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1767,6 +1797,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
